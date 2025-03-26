@@ -51,3 +51,15 @@ hr{
 body{
     font-family: 'Montserrat', sans-serif;
 }
+header .intro{
+ position: relative;
+}
+header .intro .head {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+header .intro .head h1{
+    font-family: "Leckerli One", cursive;
+}
